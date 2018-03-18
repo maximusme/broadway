@@ -9,7 +9,7 @@ header {
     background-image: url(../img/the-flatiron-building.png);
     background-repeat: no-repeat;
     background-size: cover;
-   
+
 }
 /*nav sets default link styling*/
 nav a {
@@ -58,6 +58,7 @@ footer {
     text-align: left;
     color: white;
     font-size: 11px;
+    padding-bottom: 3px;
 }
 
 footer nav {

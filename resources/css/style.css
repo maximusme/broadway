@@ -1,41 +1,65 @@
+/*body sets some default syling*/
 body {
-  font-family: 'Helvetica', sans-serif;
-  text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    font-size: 14px;
 }
-
+/*header sets all headers background image*/
 header {
-  background-image: url("../img/the-flatiron-building.png");
-  min-height: 297px;
+    background-image: url(../img/the-flatiron-building.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
-
-nav {
-
+/*nav sets default link styling*/
+nav a {
+    color: white;
+    font-size: 18px;
 }
-
-a {
-  color: white;
+/*header nav link style targeting*/
+header nav a {
+    display: block;
+    line-height: 30px;
 }
-
-ul {
-  padding-left: 0px;
-  list-style: none;
-  color: white;
-  font-size: 18px;
-  line-height: 30px;
-  list-style-position: inside;
-}
-
+/*h1 styling*/
 h1 {
-  font-size: 70px;
-  font-weight: bold;
-  color: white;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
 }
-
-h2 {
-  font-size: 32px;
-  font-weight: bold;
-}
-
+/*h3 styling*/
 h3 {
-  font-size: 23px;
+    font-size: 23px;
+    font-weight: bold;
+}
+/*Target styling for process header*/
+#process header h2 {
+    font-size: 32px;
+}
+
+#process header {
+    background-image: none;
+    height: auto;
+}
+/*Target styling for design header*/
+#contactdetails header h2 {
+    font-size: 23px;
+    color: white;
+}
+
+#contactdetails header {
+    background-image: url(../img/the-flatiron-building.png);
+    background-repeat: no-repeat;
+}
+
+/*Target styling for footer*/
+footer {
+    background-color: dimgray;
+    text-align: left;
+    color: white;
+    font-size: 11px;
+}
+
+footer nav {
+    display: inline-block;
 }
